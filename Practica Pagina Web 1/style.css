@@ -1,0 +1,541 @@
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 75px;
+    font-size: 50px;    
+    position: sticky; top: 2;   
+ }
+ nav {
+     margin: 15px 0 solid black;
+     background-color: rgb(15, 21, 15);
+     font-size: 30px;
+     text-align: center;
+     justify-content: space-between;
+ }
+
+ article {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     background-color: blue;
+     width: 100%;
+     height: 400px;
+ }
+ section {
+     background-color: yellow;
+     margin: 15px 15px;
+     height: 175px;
+     font-size: 50px;
+     text-align: center;
+ 
+ }
+ aside {
+     background-color: #282a35;
+     margin: 0 0 0 15px solid black;
+     font-size: 50px;
+     text-align: center;
+     height: 900px;
+     color:white;
+
+     
+ }
+ 
+ footer{ background-color: #282a35;
+
+ }
+ .d-grid {
+     display: grid;
+     grid-template-columns: 3fr 3fr;
+ }
+.logotipo{
+    height: 50px;
+    animation-name: escalar;
+    animation-duration: 2s;
+    animation-delay: 1;
+    
+}
+.buscar{
+    border-radius: 50px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    width: 500px;
+
+}
+
+.buscador{
+    border-radius: 100px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    width: 120px;
+}
+
+.custom-shape-divider-bottom-1694453758 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1694453758 svg {
+    position: relative;
+    display: block;
+    width: calc(167% + 1.3px);
+    height: 198px;
+}
+
+.custom-shape-divider-bottom-1694453758 .shape-fill {
+    fill: #d9eee1;
+}
+
+.textorosa{
+    color: pink;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.textoblanco{
+    font-size: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: inherit;
+}
+.textoabajo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.enlace{
+    text-decoration: none;
+}
+
+.contenedor > a {
+    text-decoration: none;
+}
+
+#icono {
+    font-size: 20px
+}
+
+/*Animaciones*/
+
+@keyframes carga {
+
+    from {
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform: rotate(180deg);
+    }
+
+
+    
+}
+
+@keyframes escalar{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(0.5)
+    }
+}
+
+
+
+
+.login {
+    width: 93px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    border-radius: 25px;
+    margin-right: -39px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 5;
+    color:#ffffff;
+    font:16px ;
+    background: #04AA6D;
+    margin: -20px -39px 56px 0px;
+    padding: 8px 16px;
+    font: 16px "Source Sans Pro Topnav", sans-serif;
+}
+
+.signup {
+    width: 93px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    border-radius: 25px;
+    margin-right: -39px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 5;
+    color:#ffffff;
+    font:16px ;
+    background: #04AA6D;
+    margin: -20px -39px 56px 0px;
+    padding: 8px 16px;
+    font: 16px "Source Sans Pro Topnav", sans-serif;
+}
+
+.html{
+    font-size:100px;
+    font-weight:700;
+    margin-top:-18px!important;
+}
+.certificates {
+    color:#000000;
+    font: 16px "Source Sans Pro Topnav", sans-serif;
+    background: #ffffff;
+    margin: -20px 10px 56px 0px;
+    height: 30px;
+    top: 50%;
+    margin-top: -20px;
+    border-radius: 25px;
+    padding: 8px 16px
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 3 1fr;
+    gap: 30px;
+    grid-template-areas: 
+    "php jquery"
+    "java cmasmas"
+    "w3 boostrap";
+}
+
+.php{color:black;
+    background-color:#FFC0C7;
+    padding:24px;
+    /* justify-content: stretch; */
+    grid-area: "php";
+}
+
+.titulophp{
+    font-size:45px;
+    font-weight:700;
+}
+
+.letraphp{
+
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+.buttonphp{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.jquery{
+    background-color: #FFF4A3;
+    color:black;
+    padding:24px;
+    grid-area: "jquery;"
+}
+.titulojquery{
+    font-size:45px;
+    font-weight:700;
+}
+.letrajquery{
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+
+.buttomjquery{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+.java{
+    color:black;
+    background-color:#F3ECEA;
+    padding:24px
+}
+.titulojava{
+    font-size:45px;
+    font-weight:700;
+}
+.letrajava{
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+.buttomjava{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px; 
+}
+.cmasmas{
+    color:black;
+    background-color:#D9EEE1;
+    padding:24px
+}
+.titulocmasmas{
+    font-size:45px;
+    font-weight:700;
+}
+.letracmasmas{
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+.buttomcmasmas{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px; 
+}
+.w3{
+    color:black;
+    background-color:#96D4D4;
+    padding:24px;
+    justify-content: stretch;
+}
+.titulow3{
+    font-size:45px;
+    font-weight:700;
+}
+.letraw3{
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+.buttomw3{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px; 
+}
+.boostrap{
+    color:black;
+    background-color:#E7E9EB;
+    padding:24px;
+}
+.tituloboostrap{
+    font-size:45px;
+    font-weight:700;
+}
+.letraboostrap{
+    font: 18px "Source Sans Pro Topnav", sans-serif;
+}
+.buttomboostrap{
+    background-color: #282A35;
+    color: white;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px; 
+}
+.tituloc{
+    background-color: #FFC0C7;
+    color: black;
+    
+}
+.titulon{
+    background-color: #FFF4A3;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.tituloa{
+    background-color: #F3ECEA;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulob{
+    background-color: #D9EEE1;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulod{
+    background-color: #96D4D4;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.tituloe{
+    background-color: #FFC0C7;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulof{
+    background-color: #FFF4A3;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulog{
+    background-color: #F3ECEA;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.tituloh{
+    background-color: #D9EEE1;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+
+.tituloi{
+    background-color: #FFC0C7;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.tituloj{
+    background-color: #FFF4A3;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulok{
+    background-color: #F3ECEA;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulol{
+    background-color: #D9EEE1;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulom{
+    background-color: #04AA6D;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.titulon{
+    background-color: #0cc2ef;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+}
+.tecnologias{
+    margin-top: 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 4 1fr;
+    grid-template-rows: 5 1fr;
+    gap: 30px;
+    /* grid-template-areas: 
+    "html html css css"
+    "javascrip javascript sql sql"
+    "cgato nodejs mysql json"
+    "xml react excel typescript"
+    "django django mongodb mongodb"; */
+}
+
+.html {
+    /* grid-area: "html"; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #F3ECEA;
+    height: 100%;
+}
+
+.css {
+    /* grid-area: "css"; */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #D9EEE1;
+    height: 100%;
+}
+.javascrpt {
+    /* grid-area: "javascript"; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+    background-color: #96D4D4;
+}
+.sql {
+    /* grid-area: "sql"; */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    height: 100%;
+    background-color: #FFC0C7;
+}
+.django {
+    /* grid-area: "django"; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100%;
+    background-color: #F3ECEA;
+}
+.mongodb {
+    /* grid-area: "mongodb"; */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    height: 100%;
+    background-color: #D9EEE1;
+}
+.cgato{
+    height: 100%;
+    background-color: #FFC0C7
+}
+
+.nodejs{
+    height: 100%;
+    background-color: #04AA6D
+}
+.mysql{
+    height: 100%;
+    background-color: #0cc2ef
+}
+.json{
+    height: 100%;
+    background-color: #FFF4A3
+}
+.xml{
+    height: 100%;
+    background-color: #F3ECEA
+}
+.react{
+    height: 100%;
+    background-color: #d9eee1
+}
+.excel{
+    height: 100%;
+    background-color: #FFC0C7
+}
+.typescript{
+    height: 100%;
+    background-color: #FFF4A3
+}
